@@ -210,8 +210,29 @@ nav {
   height: 32px;
 }
 
-.logo-accent {
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.9;
+  font-family: 'Playfair Display', serif;
+}
+
+.logo-top {
   color: var(--primary);
+  font-weight: 900;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.logo-bottom {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-top: 2px;
+  opacity: 0.8;
 }
 
 .nav-links {
