@@ -501,6 +501,10 @@ nav {
   transform: scale(1.1);
 }
 
+.hidden-honey {
+  display: none !important;
+}
+
 /* Contact Section */
 .contact-card {
   display: grid;

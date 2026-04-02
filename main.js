@@ -223,12 +223,6 @@ document.getElementById('login-form').onsubmit = (e) => {
   hideLogin();
 };
 
-document.querySelector('.contact-form').onsubmit = (e) => {
-  e.preventDefault();
-  alert('Message sent! We will contact you soon via email or WhatsApp.');
-  e.target.reset();
-};
-
 document.getElementById('checkout-btn').onclick = () => {
   if (cart.length === 0) {
     alert('Your cart is empty!');

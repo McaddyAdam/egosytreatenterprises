@@ -18,7 +18,7 @@ We specialize in high-quality, freshly baked snacks and pastries including:
 ## 📞 Contact Information
 - **Phone**: +2347049078821
 - **WhatsApp**: [+2348124551723](https://wa.me/2348124551723)
-- **Email**: [egosytreatenterprises@gmail.com](mailto:egosytreatenterprises@gmail.com)
+- **Email**: [egosytreatenterprise@gmail.com](mailto:egosytreatenterprise@gmail.com)
 - **Location**: Port-harcourt, Nigeria
 
 ## 🛠️ Tech Stack

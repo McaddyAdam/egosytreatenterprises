@@ -90,7 +90,7 @@
                             </div>
                             <div class="info-item">
                                 <i data-lucide="mail"></i>
-                                <a href="mailto:egosytreatenterprises@gmail.com">egosytreatenterprises@gmail.com</a>
+                                <a href="mailto:egosytreatenterprise@gmail.com">egosytreatenterprise@gmail.com</a>
                             </div>
                             <div class="info-item">
                                 <i data-lucide="phone"></i>
@@ -102,15 +102,22 @@
                             </div>
                         </div>
                     </div>
-                    <form class="contact-form">
+                    <form class="contact-form" action="https://formsubmit.co/egosytreatenterprise@gmail.com" method="POST">
+                        <!-- Honeypot to prevent spam -->
+                        <input type="text" name="_honey" class="hidden-honey" title="Do not fill" aria-hidden="true" tabindex="-1">
+                        <!-- Disable Captcha (Optional) -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Success Page -->
+                        <input type="hidden" name="_next" value="https://mcaddytechsolutions.com/thanks.html">
+
                         <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
+                            <input type="text" name="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="How can we help?" rows="4"></textarea>
+                            <textarea name="message" placeholder="How can we help?" rows="4" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary full-width">Send Message</button>
                     </form>
